@@ -1,15 +1,14 @@
-import { NavBar } from './components/NavBar'
-import './App.css'
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home.tsx";
+import "./App.css";
 
 function App() {
-  
-
   return (
     <>
-  <NavBar />
-
+      <NavBar />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
